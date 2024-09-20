@@ -47,3 +47,38 @@ body {
     color: black;
     margin-top: 20px;
 }
+
+@media (min-width: 768px) {
+    .card {
+        width: 400px;  /* Larghezza maggiore su tablet */
+        padding: 30px;  /* Aggiungiamo più padding per gli schermi più grandi */
+    }
+
+    .text {
+        font-size: 20px;
+    }
+
+    .subtext {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 1024px) {
+    body {
+        background-color: hsl(212, 45%, 89%);
+        padding: 40px;
+    }
+
+    .card {
+        width: 450px;  /* Ancora più larga su desktop */
+        padding: 40px;
+    }
+
+    .text {
+        font-size: 22px;
+    }
+
+    .subtext {
+        font-size: 17px;
+    }
+}
