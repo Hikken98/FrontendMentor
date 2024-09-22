@@ -88,7 +88,7 @@ body {
   background-color: hsl(71, 73%, 54%);
   color: white;
   border: none;
-  padding: 10px 100px;
+  padding: 12px 110px;
   border-radius: 5px;
   cursor: pointer;
   margin-top: 20px;
@@ -107,4 +107,20 @@ body {
   margin-top: 20px;
   list-style-type: none;
   line-height: 1.4;
+}
+
+@media screen and (max-width: 450px){
+  .card-body{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-body-item-left{
+    order: 1;
+  }
+
+  .card-body-item-right{
+    order: 2;
+  }
+  
 }
